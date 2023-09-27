@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/static/css/styles-juego.css">
+    <title>Ash vs. Clones: Juego de Cartas</title>
+</head>
+<body>
+    <!-- Encabezado -->
+    <header class="game-header">
+        <h1>Ash vs. Clones: Juego de Cartas</h1>
+    </header>
+
+    <!-- Contenedor principal -->
+    <div class="container">
+        <!-- Tablero de juego -->
+        <div class="game-board">
+            <!-- Información del jugador actual -->
+            <div class="player-info">
+                <h2>Jugador 1</h2>
+                <div class="player-stats">
+                    <div class="stat">
+                        <h3>Salud</h3>
+                        <p>30</p>
+                    </div>
+                    <div class="stat">
+                        <h3>Cordura</h3>
+                        <p>15</p>
+                    </div>
+                </div>
+                <!-- Carta en la mano del jugador -->
+                <div class="carta-ficha">
+                    <h3>Carta de Ataque</h3>
+                    <p>Daño: 5</p>
+                </div>
+            </div>
+
+            <!-- Tablero de cartas y fichas -->
+            <div class="card-board">
+                <!-- Cartas del jugador -->
+                <div class="player-hand">
+                    <div class="carta-mazo carta-mazo-inicial">
+                        <!-- Contenido de la carta -->
+                    </div>
+                    
+                    <div class="carta animated" onclick="jugarCarta(this);">
+                        <!-- Contenido de la carta -->
+                    </div>
+                </div>
+
+                <!-- Cartas en juego -->
+                <div class="in-play">
+                    <!-- Aquí se mostrarán las cartas que están en juego -->
+                </div>
+            </div>
+
+            <!-- Información del oponente -->
+            <div class="opponent-info">
+                <h2>Jugador 2</h2>
+                <div class="player-stats">
+                    <div class="stat">
+                        <h3>Salud</h3>
+                        <p>30</p>
+                    </div>
+                    <div class="stat">
+                        <h3>Cordura</h3>
+                        <p>15</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Panel de control -->
+        <div class="control-panel">
+            <!-- Botones de acción -->
+            <div class="action-buttons">
+                <button id="playCard">Jugar Carta</button>
+                <button id="endTurn">Pasar Turno</button>
+            </div>
+
+            <!-- Modo Sandbox -->
+            <div class="sandbox-mode">
+                <input type="checkbox" id="sandboxToggle">
+                <label for="sandboxToggle">Modo Sandbox</label>
+            </div>
+            <div class="icono-tematico">
+                <img src="icono-evil-dead.png" alt="Icono Evil Dead">
+            </div>
+            <!-- Mensajes e información del juego -->
+            <div class="game-messages">
+                <p id="message">Mensaje informativo aquí</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Pie de página -->
+    <footer class="game-footer">
+        <p>Derechos de autor © 2023 | Tu nombre o empresa</p>
+    </footer>
+
+    <!-- Scripts de JavaScript -->
+    <script src="/static/js/script.js"></script>
+</body>
+</html>

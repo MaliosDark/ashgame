@@ -1,12 +1,112 @@
-<!-- inicio.html -->
 <!DOCTYPE html>
 <html>
+
 <head>
     <title>Ash vs. Clones - Inicio</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+        }
+
+        /* Establece el fondo con el GIF de fuego */
+        .background-image {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            z-index: -1;
+        }
+
+        /* Configura la imagen de portada como transparente */
+        .cover-image {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(0, 0, 0, 0.5); /* Color de fondo transparente, ajusta el valor alpha según desees */
+            background-image: url('/static/img/1.png'); /* Reemplaza 'ruta-de-tu-imagen.jpg' con la URL de tu imagen de portada */
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center;
+        }
+
+        .overlay {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(0, 0, 0, 0.7);
+        }
+
+        .container {
+            position: relative;
+            z-index: 1;
+            text-align: center;
+            padding-top: 20%;
+            color: #fff;
+        }
+
+        h1 {
+            font-size: 36px;
+        }
+
+        p {
+            font-size: 18px;
+        }
+
+        .btn {
+            display: inline-block;
+            padding: 10px 20px;
+            background-color: #ff6600;
+            color: #fff;
+            text-decoration: none;
+            font-weight: bold;
+            border-radius: 5px;
+            transition: background-color 0.3s;
+        }
+
+        .btn:hover {
+            background-color: #ff4500;
+        }
+
+        /* Nuevo estilo para el cuadro de bienvenida */
+        .welcome-box {
+            background-color: rgba(0, 0, 0, 0.5);
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 20px rgba(255, 255, 255, 0.2);
+        }
+
+    </style>
 </head>
+
 <body>
-    <h1>Bienvenidos al Juego de Cartas Ash vs. Clones</h1>
-    <p>Haz clic en el botón para empezar el juego:</p>
-    <a href="/juego" class="btn btn-primary">Comenzar Juego</a>
+
+    <div class="background-image"></div>
+    <div class="cover-image"></div>
+    <div class="overlay"></div>
+
+    <!-- Contenido principal -->
+    <div class="container">
+        <div class="welcome-box">
+            <h1>Bienvenidos al Juego de Cartas Ash vs. Clones</h1>
+            <p>Haz clic en el botón para empezar el juego:</p>
+            <a href="/juego" class="btn btn-primary">Comenzar Juego</a>
+        </div>
+    </div>
+
+    <!-- Animaciones de fuego (puedes agregar librerías como animate.css para esto) -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+    <div class="animated animate__animated animate__fadeInUp animate__delay-1s">
+        <!-- Contenido animado -->
+    </div>
+
 </body>
+
 </html>

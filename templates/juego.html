@@ -8,66 +8,121 @@
 </head>
 <body>
     <!-- Encabezado -->
-    <header class="game-header">
+    <header>
         <h1>Ash vs. Clones: Juego de Cartas</h1>
     </header>
 
     <!-- Contenedor principal -->
     <div class="container">
+        <!-- Salud del jugador principal -->
+    <div class="status-bar">
+        <h3>Salud</h3>
+        <div class="status-bar-inner" id="health-bar">
+            <div class="status-fill" id="health-fill"></div>
+        </div>
+    </div>
+
+    <!-- Cordura del jugador principal -->
+    <div class="status-bar">
+        <h3>Cordura</h3>
+        <div class="status-bar-inner" id="sanity-bar">
+            <div class="status-fill" id="sanity-fill"></div>
+        </div>
+    </div>
         <!-- Tablero de juego -->
         <div class="game-board">
-            <!-- Información del jugador actual -->
-            <div class="player-info">
-                <h2>Jugador 1</h2>
-                <div class="player-stats">
-                    <div class="stat">
-                        <h3>Salud</h3>
-                        <p>30</p>
-                    </div>
-                    <div class="stat">
-                        <h3>Cordura</h3>
-                        <p>15</p>
-                    </div>
-                </div>
-                <!-- Carta en la mano del jugador -->
-                <div class="carta-ficha">
-                    <h3>Carta de Ataque</h3>
-                    <p>Daño: 5</p>
-                </div>
-            </div>
-
-            <!-- Tablero de cartas y fichas -->
-            <div class="card-board">
-                <!-- Cartas del jugador -->
+            <!-- Jugador principal (Yo) -->
+            <div class="player player-main">
+                <h2>Jugador Principal (Tú)</h2>
+                <!-- Cartas del jugador principal -->
                 <div class="player-hand">
-                    <div class="carta-mazo carta-mazo-inicial">
-                        <!-- Contenido de la carta -->
+                    <!-- Carta 1 (ejemplo) -->
+                    <div class="carta" draggable="true" ondragstart="iniciarArrastreCarta(event)" ondragend="detenerArrastreCarta()">
+                        <h3>Carta 1</h3>
+                        <p>Daño: 5</p>
+                        <!-- Puedes agregar más información de la carta aquí -->
                     </div>
-                    
-                    <div class="carta animated" onclick="jugarCarta(this);">
-                        <!-- Contenido de la carta -->
+                    <!-- Carta 2 (ejemplo) -->
+                    <div class="carta" draggable="true" ondragstart="iniciarArrastreCarta(event)" ondragend="detenerArrastreCarta()">
+                        <h3>Carta 2</h3>
+                        <p>Daño: 3</p>
+                        <!-- Puedes agregar más información de la carta aquí -->
+                    </div>
+                </div>
+                <!-- Mesa de juego -->
+                <div class="game-table">
+                    <!-- Cartas en juego en la mesa -->
+                    <div class="in-play">
+                        <!-- Carta en juego 1 (ejemplo) -->
+                        <div class="carta-en-juego">
+                            <h3>Carta en Juego 1</h3>
+                            <p>Daño: 7</p>
+                            <!-- Puedes agregar más información sobre la carta en juego aquí -->
+                        </div>
+
+                        <!-- Carta en juego 2 (ejemplo) -->
+                        <div class="carta-en-juego">
+                            <h3>Carta en Juego 2</h3>
+                            <p>Daño: 4</p>
+                            <!-- Puedes agregar más información sobre la carta en juego aquí -->
+                        </div>
                     </div>
                 </div>
 
-                <!-- Cartas en juego -->
-                <div class="in-play">
-                    <!-- Aquí se mostrarán las cartas que están en juego -->
+                <!-- Mazo y objetos del jugador principal -->
+                <div class="player-side">
+                    <!-- Mazo del jugador principal -->
+                    <div class="player-deck">
+                        <h3>Mazo</h3>
+                        <p>Cartas restantes: 25</p>
+                        <!-- Puedes agregar más información sobre el mazo aquí -->
+                    </div>
+
+                    <!-- Objetos del jugador principal -->
+                    
+                    <div class="player-items">
+                        <h3>Objetos</h3>
+                        <!-- Agrega aquí los objetos del jugador principal, por ejemplo: -->
+                        <div class="objeto">
+                            <h4>Objeto 1</h4>
+                            <!-- Botón para seleccionar objetos -->
+                            <button id="seleccionarObjeto">Seleccionar Objeto</button>
+                            <p>Efecto: Recupera 5 puntos de salud.</p>
+                        </div>
+                        <div class="objeto">
+                            <h4>Objeto 2</h4>
+                            <button id="seleccionarObjeto">Seleccionar Objeto</button>
+                            <p>Efecto: Aumenta la cordura en 10 puntos.</p>
+                        </div>
+                    </div>
                 </div>
             </div>
+            
 
-            <!-- Información del oponente -->
-            <div class="opponent-info">
-                <h2>Jugador 2</h2>
-                <div class="player-stats">
-                    <div class="stat">
-                        <h3>Salud</h3>
-                        <p>30</p>
+            <!-- Jugadores oponentes -->
+            <div class="opponents">
+                <!-- Jugador 1 -->
+                <div class="player opponent">
+                    <h2>Jugador 1</h2>
+                    <!-- Cartas boca abajo del jugador 1 (oponente) -->
+                    <div class="opponent-hand">
+                        <!-- Carta boca abajo 1 (ejemplo) -->
+                        <div class="carta boca-abajo">
+                            <!-- La carta está boca abajo, puedes agregar una imagen o información oculta -->
+                        </div>
+
+                        <!-- Carta boca abajo 2 (ejemplo) -->
+                        <div class="carta boca-abajo">
+                            <!-- La carta está boca abajo, puedes agregar una imagen o información oculta -->
+                        </div>
                     </div>
-                    <div class="stat">
-                        <h3>Cordura</h3>
-                        <p>15</p>
+                    <!-- Salud y cordura del jugador 1 -->
+                    <div class="opponent-stats">
+                        <p>Salud: 30</p>
+                        <p>Cordura: 15</p>
                     </div>
                 </div>
+                <!-- Repite la estructura para los otros jugadores oponentes -->
             </div>
         </div>
 
@@ -75,8 +130,9 @@
         <div class="control-panel">
             <!-- Botones de acción -->
             <div class="action-buttons">
-                <button id="playCard">Jugar Carta</button>
-                <button id="endTurn">Pasar Turno</button>
+                <button id="attack">Atacar</button>
+                <button id="useItem">Usar Objeto</button>
+                <button id="endTurn">Terminar Turno</button>
             </div>
 
             <!-- Modo Sandbox -->
@@ -84,22 +140,42 @@
                 <input type="checkbox" id="sandboxToggle">
                 <label for="sandboxToggle">Modo Sandbox</label>
             </div>
-            <div class="icono-tematico">
-                <img src="icono-evil-dead.png" alt="Icono Evil Dead">
-            </div>
+
             <!-- Mensajes e información del juego -->
             <div class="game-messages">
                 <p id="message">Mensaje informativo aquí</p>
             </div>
+
+            <!-- Chat de juego (movible) -->
+            <div class="chat" draggable="true" ondragstart="iniciarArrastreChat(event)" ondrag="arrastrarChat(event)" ondragend="detenerArrastreChat()">
+                <!-- Encabezado del chat -->
+                <div class="chat-header">
+                    <h3>Chat de Juego</h3>
+                </div>
+
+                <!-- Lista de jugadores en línea -->
+                <div class="online-players">
+                    <h4>Jugadores en línea:</h4>
+                    <ul id="playerList">
+                        <!-- Los jugadores en línea se agregarán aquí -->
+                    </ul>
+                </div>
+
+                <!-- Área de mensajes del chat -->
+                <div class="chat-messages" id="chatMessages">
+                    <!-- Mensajes del chat se mostrarán aquí -->
+                </div>
+
+                <!-- Entrada de chat -->
+                <div class="chat-input">
+                    <input type="text" id="chatMessage" placeholder="Escribe tu mensaje...">
+                    <button onclick="enviarMensaje()">Enviar</button>
+                </div>
+            </div>
         </div>
     </div>
-
-    <!-- Pie de página -->
-    <footer class="game-footer">
-        <p>Derechos de autor © 2023 | Tu nombre o empresa</p>
-    </footer>
-
     <!-- Scripts de JavaScript -->
     <script src="/static/js/script.js"></script>
 </body>
+<!-- Pie de página -->
 </html>
