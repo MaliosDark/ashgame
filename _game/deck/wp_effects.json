@@ -1,0 +1,124 @@
+{
+    "efectos_cartas": [
+        {
+            "Nombre": "Ataque Mortal",
+            "Descripcion": "Aumenta el poder de ataque del jugador en 4 puntos.",
+            "Acciones": [
+                {
+                    "accion": "aumentar_ataque",
+                    "cantidad": 4
+                }
+            ]
+        },
+        {
+            "Nombre": "Golpe de Destrucción",
+            "Descripcion": "Aumenta el poder de ataque del jugador en 6 puntos.",
+            "Acciones": [
+                {
+                    "accion": "aumentar_ataque",
+                    "cantidad": 6
+                }
+            ]
+        },
+        {
+            "Nombre": "Estocada Venenosa",
+            "Descripcion": "Aumenta el poder de ataque del jugador en 3 puntos y el jugador objetivo recibe 2 puntos de veneno.",
+            "Acciones": [
+                {
+                    "accion": "aumentar_ataque",
+                    "cantidad": 3
+                },
+                {
+                    "accion": "aplicar_veneno",
+                    "cantidad": 2
+                }
+            ]
+        },
+        {
+            "Nombre": "Espada de Fuego",
+            "Descripcion": "Aumenta el poder de ataque del jugador en 5 puntos y el jugador objetivo recibe 3 puntos de daño por fuego.",
+            "Acciones": [
+                {
+                    "accion": "aumentar_ataque",
+                    "cantidad": 5
+                },
+                {
+                    "accion": "aplicar_danio_por_fuego",
+                    "cantidad": 3
+                }
+            ]
+        },
+        {
+            "Nombre": "Hacha Vampírica",
+            "Descripcion": "Aumenta el poder de ataque del jugador en 4 puntos y el jugador recupera 2 puntos de vida.",
+            "Acciones": [
+                {
+                    "accion": "aumentar_ataque",
+                    "cantidad": 4
+                },
+                {
+                    "accion": "recuperar_vida",
+                    "cantidad": 2
+                }
+            ]
+        },
+        {
+            "Nombre": "Mazo Maldito",
+            "Descripcion": "Aumenta el poder de ataque del jugador en 5 puntos y el jugador objetivo pierde 2 puntos de cordura.",
+            "Acciones": [
+                {
+                    "accion": "aumentar_ataque",
+                    "cantidad": 5
+                },
+                {
+                    "accion": "perder_cordura",
+                    "cantidad": 2
+                }
+            ]
+        },
+        {
+            "Nombre": "Daga Envenenada",
+            "Descripcion": "Aumenta el poder de ataque del jugador en 3 puntos y el jugador objetivo recibe 4 puntos de veneno.",
+            "Acciones": [
+                {
+                    "accion": "aumentar_ataque",
+                    "cantidad": 3
+                },
+                {
+                    "accion": "aplicar_veneno",
+                    "cantidad": 4
+                }
+            ]
+        },
+        {
+            "Nombre": "Báculo de Sanación",
+            "Descripcion": "No aumenta el poder de ataque, pero el jugador puede recuperar 5 puntos de vida.",
+            "Acciones": [
+                {
+                    "accion": "recuperar_vida",
+                    "cantidad": 5
+                }
+            ]
+        },
+        {
+            "Nombre": "Escudo de la Cordura",
+            "Descripcion": "No aumenta el poder de ataque, pero el jugador recupera 3 puntos de cordura.",
+            "Acciones": [
+                {
+                    "accion": "recuperar_cordura",
+                    "cantidad": 3
+                }
+            ]
+        },
+        {
+            "Nombre": "Espada Legendaria",
+            "Descripcion": "Aumenta el poder de ataque del jugador en 8 puntos.",
+            "Acciones": [
+                {
+                    "accion": "aumentar_ataque",
+                    "cantidad": 8
+                }
+            ]
+        }
+    ]
+}

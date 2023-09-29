@@ -1,0 +1,1765 @@
+{
+    "cartas": [
+      {
+        "Nombre": "Espada de Ceniza",
+        "Tipo": "Arma",
+        "Descripcion": "La legendaria espada de Ash, capaz de cortar a través de cualquier enemigo.",
+        "Requisitos": {
+          "minimo_salud": null,
+          "minimo_cordura": null
+        },
+        "Efectos": {
+          "buff": {
+            "aumento_poder_ataque": 10
+          }
+        }
+      },
+      {
+        "Nombre": "Pistola de Remington",
+        "Tipo": "Arma",
+        "Descripcion": "Un arma de fuego confiable que dispara ráfagas mortales de munición.",
+        "Requisitos": {
+          "minimo_salud": null,
+          "minimo_cordura": null
+        },
+        "Efectos": {
+          "buff": {
+            "aumento_poder_ataque": 8
+          }
+        }
+      },
+      {
+        "Nombre": "Escopeta de Doble Cañón",
+        "Tipo": "Arma",
+        "Descripcion": "Un arma de corto alcance que dispara perdigones devastadores.",
+        "Requisitos": {
+          "minimo_salud": null,
+          "minimo_cordura": null
+        },
+        "Efectos": {
+          "buff": {
+            "aumento_poder_ataque": 12
+          }
+        }
+      },
+      {
+        "Nombre": "Botiquín de Primeros Auxilios",
+        "Tipo": "Objeto",
+        "Descripcion": "Un botiquín que restaura la salud del jugador en momentos de necesidad.",
+        "Requisitos": {
+          "minimo_salud": null,
+          "minimo_cordura": null
+        },
+        "Efectos": {
+          "buff": {
+            "recuperacion_salud": 15,
+            "recuperacion_cordura": 5
+          }
+        }
+      },
+      {
+        "Nombre": "Pergamino de Protección",
+        "Tipo": "Objeto",
+        "Descripcion": "Un pergamino mágico que otorga una barrera protectora temporal.",
+        "Requisitos": {
+          "minimo_salud": null,
+          "minimo_cordura": null
+        },
+        "Efectos": {
+          "buff": {
+            "aumento_defensa": 8,
+            "recuperacion_cordura": 10
+          }
+        }
+      },
+      {
+        "Nombre": "Rayo de Energía",
+        "Tipo": "Hechizo",
+        "Descripcion": "Un poderoso rayo de energía mágica que inflige daño a un objetivo.",
+        "Requisitos": {
+          "minimo_salud": null,
+          "minimo_cordura": 10
+        },
+        "Efectos": {
+          "dano": {
+            "dano_salud": 12,
+            "dano_cordura": 0
+          }
+        }
+      },
+      {
+        "Nombre": "Escudo de Protección",
+        "Tipo": "Contrahechizo",
+        "Descripcion": "Un escudo mágico que bloquea los hechizos enemigos y protege al jugador.",
+        "Requisitos": {
+          "minimo_salud": null,
+          "minimo_cordura": 12
+        },
+        "Efectos": {
+          "buff": {
+            "aumento_defensa": 6,
+            "recuperacion_cordura": 6
+          }
+        }
+      },
+      {
+        "Nombre": "Red de Espinas",
+        "Tipo": "Trampa",
+        "Descripcion": "Una red de espinas afiladas que atrapa a los enemigos y los debilita.",
+        "Requisitos": {
+          "minimo_salud": null,
+          "minimo_cordura": null
+        },
+        "Efectos": {
+          "debuff": {
+            "reduccion_salud": 5,
+            "reduccion_cordura": -4
+          }
+        }
+      },
+      {
+        "Nombre": "Daga Envenenada",
+        "Tipo": "Arma",
+        "Descripcion": "Una daga con veneno mortal que causa daño adicional a lo largo del tiempo.",
+        "Requisitos": {
+          "minimo_salud": null,
+          "minimo_cordura": null
+        },
+        "Efectos": {
+          "buff": {
+            "aumento_poder_ataque": 6
+          },
+          "debuff": {
+            "dano_salud": 2,
+            "dano_cordura": 0
+          }
+        }
+      },
+      {
+        "Nombre": "Piedra de Cordura",
+        "Tipo": "Objeto",
+        "Descripcion": "Una piedra preciosa que restaura la cordura del jugador.",
+        "Requisitos": {
+          "minimo_salud": null,
+          "minimo_cordura": null
+        },
+        "Efectos": {
+          "buff": {
+            "recuperacion_cordura": 12
+          }
+        }
+      },
+      {
+        "Nombre": "Bola de Fuego",
+        "Tipo": "Hechizo",
+        "Descripcion": "Un poderoso hechizo que lanza una bola de fuego contra el enemigo.",
+        "Requisitos": {
+          "minimo_salud": null,
+          "minimo_cordura": 10
+        },
+        "Efectos": {
+          "dano": {
+            "dano_salud": 14,
+            "dano_cordura": 0
+          }
+        }
+      },
+      {
+        "Nombre": "Espejo Reflector",
+        "Tipo": "Contrahechizo",
+        "Descripcion": "Un espejo mágico que refleja los hechizos enemigos de vuelta a su lanzador.",
+        "Requisitos": {
+          "minimo_salud": null,
+          "minimo_cordura": 12
+        },
+        "Efectos": {
+          "buff": {
+            "aumento_defensa": 5,
+            "recuperacion_cordura": 5
+          }
+        }
+      },
+      {
+        "Nombre": "Trampa Explosiva",
+        "Tipo": "Trampa",
+        "Descripcion": "Una trampa que explota al contacto, infligiendo daño a los enemigos cercanos.",
+        "Requisitos": {
+          "minimo_salud": null,
+          "minimo_cordura": null
+        },
+        "Efectos": {
+          "dano": {
+            "dano_salud": 10,
+            "dano_cordura": 0
+          }
+        }
+      },
+      {
+        "Nombre": "Hacha Lanzadora",
+        "Tipo": "Arma",
+        "Descripcion": "Un hacha afilada que se lanza hacia el enemigo con gran precisión.",
+        "Requisitos": {
+          "minimo_salud": null,
+          "minimo_cordura": null
+        },
+        "Efectos": {
+          "buff": {
+            "aumento_poder_ataque": 10
+          }
+        }
+      },
+      {
+        "Nombre": "Botella de Éter",
+        "Tipo": "Objeto",
+        "Descripcion": "Una botella de éter que restaura la cordura del jugador en momentos de necesidad.",
+        "Requisitos": {
+          "minimo_salud": null,
+          "minimo_cordura": null
+        },
+        "Efectos": {
+          "buff": {
+            "recuperacion_cordura": 15
+          }
+        }
+      },
+      {
+        "Nombre": "Relámpago Mortal",
+        "Tipo": "Hechizo",
+        "Descripcion": "Un hechizo que invoca un relámpago devastador que golpea al enemigo con fuerza.",
+        "Requisitos": {
+          "minimo_salud": null,
+          "minimo_cordura": 12
+        },
+        "Efectos": {
+          "dano": {
+            "dano_salud": 18,
+            "dano_cordura": 0
+          }
+        }
+      },
+      {
+        "Nombre": "Trampa de Veneno",
+        "Tipo": "Trampa",
+        "Descripcion": "Una trampa que libera veneno en el área, envenenando a los enemigos cercanos.",
+        "Requisitos": {
+          "minimo_salud": null,
+          "minimo_cordura": null
+        },
+        "Efectos": {
+          "debuff": {
+            "reduccion_salud": 4,
+            "reduccion_cordura": -4
+          }
+        }
+      },
+      {
+        "Nombre": "Hacha de Batalla",
+        "Tipo": "Arma",
+        "Descripcion": "Un hacha pesada que causa estragos en el enemigo con cada golpe.",
+        "Requisitos": {
+          "minimo_salud": null,
+          "minimo_cordura": null
+        },
+        "Efectos": {
+          "buff": {
+            "aumento_poder_ataque": 14
+          }
+        }
+      },
+      {
+        "Nombre": "Poción de Invisibilidad",
+        "Tipo": "Objeto",
+        "Descripcion": "Una poción que hace al jugador invisible, evitando los ataques enemigos.",
+        "Requisitos": {
+          "minimo_salud": null,
+          "minimo_cordura": 12
+        },
+        "Efectos": {
+          "buff": {
+            "aumento_defensa": 8
+          }
+        }
+      },
+      {
+        "Nombre": "Rayo de Hielo",
+        "Tipo": "Hechizo",
+        "Descripcion": "Un hechizo que lanza un rayo de hielo que congela al enemigo.",
+        "Requisitos": {
+          "minimo_salud": null,
+          "minimo_cordura": 10
+        },
+        "Efectos": {
+          "dano": {
+            "dano_salud": 16,
+            "dano_cordura": 0
+          }
+        }
+      },
+      {
+        "Nombre": "Espejo de Reflexión",
+        "Tipo": "Contrahechizo",
+        "Descripcion": "Un espejo mágico que refleja los hechizos enemigos de vuelta a su lanzador.",
+        "Requisitos": {
+          "minimo_salud": null,
+          "minimo_cordura": 14
+        },
+        "Efectos": {
+          "buff": {
+            "aumento_defensa": 6,
+            "recuperacion_cordura": 6
+          }
+        }
+      },
+      {
+        "Nombre": "Trampa de Explosión Mágica",
+        "Tipo": "Trampa",
+        "Descripcion": "Una trampa que estalla en una explosión mágica, infligiendo daño a los enemigos cercanos.",
+        "Requisitos": {
+          "minimo_salud": null,
+          "minimo_cordura": null
+        },
+        "Efectos": {
+          "dano": {
+            "dano_salud": 12,
+            "dano_cordura": 0
+          }
+        }
+      },
+      {
+        "Nombre": "Martillo de Justicia",
+        "Tipo": "Arma",
+        "Descripcion": "Un martillo imbuido de poder divino que aplasta a los enemigos con justicia.",
+        "Requisitos": {
+          "minimo_salud": null,
+          "minimo_cordura": null
+        },
+        "Efectos": {
+          "buff": {
+            "aumento_poder_ataque": 16
+          }
+        }
+      },
+      {
+        "Nombre": "Elixir de Sabiduría",
+        "Tipo": "Objeto",
+        "Descripcion": "Un elixir que aumenta la sabiduría del jugador, mejorando su capacidad mágica.",
+        "Requisitos": {
+          "minimo_salud": null,
+          "minimo_cordura": null
+        },
+        "Efectos": {
+          "buff": {
+            "aumento_cordura": 15
+          }
+        }
+      },
+      {
+        "Nombre": "Maldición de Debilidad",
+        "Tipo": "Hechizo",
+        "Descripcion": "Una maldición que debilita al enemigo, reduciendo su capacidad de ataque y defensa.",
+        "Requisitos": {
+          "minimo_salud": null,
+          "minimo_cordura": 10
+        },
+        "Efectos": {
+          "debuff": {
+            "reduccion_poder_ataque": 4,
+            "reduccion_defensa": 4
+          }
+        }
+      },
+      {
+        "Nombre": "Escudo de Espejos",
+        "Tipo": "Contrahechizo",
+        "Descripcion": "Un escudo mágico que crea múltiples reflejos para confundir a los hechizos enemigos.",
+        "Requisitos": {
+          "minimo_salud": null,
+          "minimo_cordura": 12
+        },
+        "Efectos": {
+          "buff": {
+            "aumento_defensa": 8,
+            "recuperacion_cordura": 8
+          }
+        }
+      },
+      {
+        "Nombre": "Trampa de Niebla Venenosa",
+        "Tipo": "Trampa",
+        "Descripcion": "Una trampa que libera una niebla venenosa, envenenando a los enemigos cercanos.",
+        "Requisitos": {
+          "minimo_salud": null,
+          "minimo_cordura": null
+        },
+        "Efectos": {
+          "debuff": {
+            "reduccion_salud": 6,
+            "reduccion_cordura": -6
+          }
+        }
+      },
+      {
+        "Nombre": "Elixir de Resistencia",
+        "Tipo": "Objeto",
+        "Descripcion": "Un elixir que aumenta la resistencia del jugador, reduciendo el daño recibido.",
+        "Requisitos": {
+          "minimo_salud": null,
+          "minimo_cordura": null
+        },
+        "Efectos": {
+          "buff": {
+            "aumento_defensa": 10
+          }
+        }
+      },
+      {
+        "Nombre": "Lanza de la Oscuridad",
+        "Tipo": "Hechizo",
+        "Descripcion": "Un hechizo que invoca una lanza oscura que atraviesa al enemigo.",
+        "Requisitos": {
+          "minimo_salud": null,
+          "minimo_cordura": 12
+        },
+        "Efectos": {
+          "dano": {
+            "dano_salud": 20,
+            "dano_cordura": 0
+          }
+        }
+      },
+      {
+        "Nombre": "Espejo de Reflejos Rápidos",
+        "Tipo": "Contrahechizo",
+        "Descripcion": "Un espejo mágico que refleja los hechizos enemigos con velocidad sobrenatural.",
+        "Requisitos": {
+          "minimo_salud": null,
+          "minimo_cordura": 14
+        },
+        "Efectos": {
+          "buff": {
+            "aumento_defensa": 10,
+            "recuperacion_cordura": 10
+          }
+        }
+      },
+      {
+        "Nombre": "Trampa de Caos Dimensional",
+        "Tipo": "Trampa",
+        "Descripcion": "Una trampa que crea un portal de caos dimensional, desorientando a los enemigos cercanos.",
+        "Requisitos": {
+          "minimo_salud": null,
+          "minimo_cordura": null
+        },
+        "Efectos": {
+          "debuff": {
+            "reduccion_salud": 8,
+            "reduccion_cordura": -8
+          }
+        }
+      },
+      {
+        "Nombre": "Bastón de Energía",
+        "Tipo": "Arma",
+        "Descripcion": "Un bastón que canaliza la energía mágica para atacar a los enemigos con poder devastador.",
+        "Requisitos": {
+          "minimo_salud": null,
+          "minimo_cordura": null
+        },
+        "Efectos": {
+          "buff": {
+            "aumento_poder_ataque": 18
+          }
+        }
+      },
+      {
+        "Nombre": "Elixir de Renovación",
+        "Tipo": "Objeto",
+        "Descripcion": "Un elixir que renueva completamente la salud y la cordura del jugador.",
+        "Requisitos": {
+          "minimo_salud": null,
+          "minimo_cordura": null
+        },
+        "Efectos": {
+          "buff": {
+            "recuperacion_salud": 30,
+            "recuperacion_cordura": 30
+          }
+        }
+      },
+      {
+        "Nombre": "Maldición de Vulnerabilidad",
+        "Tipo": "Hechizo",
+        "Descripcion": "Una maldición que hace que el enemigo sea vulnerable, aumentando el daño recibido.",
+        "Requisitos": {
+          "minimo_salud": null,
+          "minimo_cordura": 10
+        },
+        "Efectos": {
+          "debuff": {
+            "aumento_dano_recibido": 25
+          }
+        }
+      },
+      {
+        "Nombre": "Escudo de Reflexión Total",
+        "Tipo": "Contrahechizo",
+        "Descripcion": "Un escudo mágico que refleja cualquier hechizo enemigo de vuelta a su lanzador.",
+        "Requisitos": {
+          "minimo_salud": null,
+          "minimo_cordura": 18
+        },
+        "Efectos": {
+          "buff": {
+            "aumento_defensa": 12,
+            "recuperacion_cordura": 12
+          }
+        }
+      },
+      {
+        "Nombre": "Trampa de Aniquilación",
+        "Tipo": "Trampa",
+        "Descripcion": "Una trampa que causa una explosión masiva, infligiendo daño catastrófico a los enemigos cercanos.",
+        "Requisitos": {
+          "minimo_salud": null,
+          "minimo_cordura": null
+        },
+        "Efectos": {
+          "dano": {
+            "dano_salud": 25,
+            "dano_cordura": 0
+          }
+        }
+      },
+      {
+        "Nombre": "Daga Maldita",
+        "Tipo": "Arma",
+        "Descripcion": "Una daga imbuida de oscuridad que causa heridas mortales a los enemigos.",
+        "Requisitos": {
+          "minimo_salud": null,
+          "minimo_cordura": null
+        },
+        "Efectos": {
+          "buff": {
+            "aumento_poder_ataque": 20
+          }
+        }
+      },
+      {
+        "Nombre": "Poción de Regeneración",
+        "Tipo": "Objeto",
+        "Descripcion": "Una poción que regenera la salud del jugador a niveles óptimos.",
+        "Requisitos": {
+          "minimo_salud": null,
+          "minimo_cordura": 14
+        },
+        "Efectos": {
+          "buff": {
+            "recuperacion_salud": 40
+          }
+        }
+      },
+      {
+        "Nombre": "Llamarada Infernal",
+        "Tipo": "Hechizo",
+        "Descripcion": "Un hechizo que invoca una llamarada infernal que consume al enemigo en fuego.",
+        "Requisitos": {
+          "minimo_salud": null,
+          "minimo_cordura": 16
+        },
+        "Efectos": {
+          "dano": {
+            "dano_salud": 30,
+            "dano_cordura": 0
+          }
+        }
+      },
+      {
+        "Nombre": "Trampa de Caos Oscuro",
+        "Tipo": "Trampa",
+        "Descripcion": "Una trampa que desencadena un caos oscuro, causando estragos en los enemigos cercanos.",
+        "Requisitos": {
+          "minimo_salud": null,
+          "minimo_cordura": null
+        },
+        "Efectos": {
+          "dano": {
+            "dano_salud": 20,
+            "dano_cordura": 10
+          }
+        }
+      },
+      {
+        "Nombre": "Espada de las Sombras",
+        "Tipo": "Arma",
+        "Descripcion": "Una espada forjada en las sombras que absorbe la energía de los enemigos derrotados.",
+        "Requisitos": {
+          "minimo_salud": null,
+          "minimo_cordura": null
+        },
+        "Efectos": {
+          "buff": {
+            "aumento_poder_ataque": 25,
+            "recuperacion_cordura": 10
+          }
+        }
+      },
+      {
+        "Nombre": "Poción de Clarividencia",
+        "Tipo": "Objeto",
+        "Descripcion": "Una poción que otorga clarividencia al jugador, mejorando su capacidad de prever los ataques enemigos.",
+        "Requisitos": {
+          "minimo_salud": null,
+          "minimo_cordura": null
+        },
+        "Efectos": {
+          "buff": {
+            "aumento_defensa": 15
+          }
+        }
+      },
+      {
+        "Nombre": "Maldición de Desesperación",
+        "Tipo": "Hechizo",
+        "Descripcion": "Una maldición que sume al enemigo en desesperación, reduciendo su capacidad de resistir ataques.",
+        "Requisitos": {
+          "minimo_salud": null,
+          "minimo_cordura": 18
+        },
+        "Efectos": {
+          "debuff": {
+            "reduccion_defensa": 10,
+            "aumento_dano_recibido": 30
+          }
+        }
+      },
+      {
+        "Nombre": "Escudo de la Luz Divina",
+        "Tipo": "Contrahechizo",
+        "Descripcion": "Un escudo mágico que emana luz divina y protege al jugador de los hechizos malignos.",
+        "Requisitos": {
+          "minimo_salud": null,
+          "minimo_cordura": 22
+        },
+        "Efectos": {
+          "buff": {
+            "aumento_defensa": 20,
+            "recuperacion_cordura": 15
+          }
+        }
+      },
+      {
+        "Nombre": "Trampa de Desintegración",
+        "Tipo": "Trampa",
+        "Descripcion": "Una trampa que desintegra a los enemigos atrapados en su radio de acción.",
+        "Requisitos": {
+          "minimo_salud": null,
+          "minimo_cordura": null
+        },
+        "Efectos": {
+          "dano": {
+            "dano_salud": 40,
+            "dano_cordura": 0
+          }
+        }
+      },
+      {
+        "Nombre": "Báculo de la Tormenta",
+        "Tipo": "Arma",
+        "Descripcion": "Un báculo que controla las fuerzas de la tormenta, lanzando rayos a los enemigos.",
+        "Requisitos": {
+          "minimo_salud": null,
+          "minimo_cordura": 20
+        },
+        "Efectos": {
+          "buff": {
+            "aumento_poder_ataque": 30
+          }
+        }
+      },
+      {
+        "Nombre": "Maldición de Aniquilación",
+        "Tipo": "Hechizo",
+        "Descripcion": "Una maldición que condena al enemigo a la aniquilación total, infligiendo daño implacable.",
+        "Requisitos": {
+          "minimo_salud": null,
+          "minimo_cordura": 22
+        },
+        "Efectos": {
+          "debuff": {
+            "reduccion_salud": 15,
+            "aumento_dano_recibido": 40
+          }
+        }
+      },
+      {
+        "Nombre": "Escudo de la Barrera Infinita",
+        "Tipo": "Contrahechizo",
+        "Descripcion": "Un escudo mágico que crea una barrera infranqueable, bloqueando cualquier hechizo enemigo.",
+        "Requisitos": {
+          "minimo_salud": null,
+          "minimo_cordura": 26
+        },
+        "Efectos": {
+          "buff": {
+            "aumento_defensa": 25,
+            "recuperacion_cordura": 20
+          }
+        }
+      },
+      {
+        "Nombre": "Trampa de Obliteración",
+        "Tipo": "Trampa",
+        "Descripcion": "Una trampa que borra a los enemigos de la existencia, aniquilándolos por completo.",
+        "Requisitos": {
+          "minimo_salud": null,
+          "minimo_cordura": null
+        },
+        "Efectos": {
+          "dano": {
+            "dano_salud": 50,
+            "dano_cordura": 0
+          }
+        }
+      },
+      {
+        "Nombre": "Heraldo del Caos",
+        "Tipo": "Arma",
+        "Descripcion": "Un arma que invoca el caos mismo, arrasando todo a su paso con poder destructivo.",
+        "Requisitos": {
+          "minimo_salud": null,
+          "minimo_cordura": 30
+        },
+        "Efectos": {
+          "buff": {
+            "aumento_poder_ataque": 40
+          }
+        }
+      },
+      {
+        "Nombre": "Poción de la Eternidad",
+        "Tipo": "Objeto",
+        "Descripcion": "Una poción que otorga inmortalidad al jugador, haciéndolo invulnerable a cualquier daño.",
+        "Requisitos": {
+          "minimo_salud": null,
+          "minimo_cordura": 40
+        },
+        "Efectos": {
+          "buff": {
+            "inmortalidad": true
+          }
+        }
+      },
+      {
+        "Nombre": "Maldición del Abismo",
+        "Tipo": "Hechizo",
+        "Descripcion": "Una maldición que arroja al enemigo al abismo, infligiendo un daño inimaginable.",
+        "Requisitos": {
+          "minimo_salud": null,
+          "minimo_cordura": 36
+        },
+        "Efectos": {
+          "debuff": {
+            "reduccion_salud": 30,
+            "aumento_dano_recibido": 50
+          }
+        }
+      },
+      {
+        "Nombre": "Escudo de la Divinidad",
+        "Tipo": "Contrahechizo",
+        "Descripcion": "Un escudo mágico que emana la divinidad misma, protegiendo al jugador de cualquier mal.",
+        "Requisitos": {
+          "minimo_salud": null,
+          "minimo_cordura": 50
+        },
+        "Efectos": {
+          "buff": {
+            "aumento_defensa": 50,
+            "recuperacion_cordura": 50
+          }
+        }
+      },
+      {
+        "Nombre": "Trampa del Fin de los Mundos",
+        "Tipo": "Trampa",
+        "Descripcion": "Una trampa que desencadena el fin de los mundos, destruyendo todo a su paso sin piedad.",
+        "Requisitos": {
+          "minimo_salud": null,
+          "minimo_cordura": null
+        },
+        "Efectos": {
+          "dano": {
+            "dano_salud": 100,
+            "dano_cordura": 0
+          }
+        }
+      },
+      {
+        "Nombre": "Espada de la Oscuridad",
+        "Tipo": "Arma",
+        "Descripcion": "Una espada que emana oscuridad y corrompe a los enemigos con su maldición.",
+        "Requisitos": {
+          "minimo_salud": null,
+          "minimo_cordura": null
+        },
+        "Efectos": {
+          "buff": {
+            "aumento_poder_ataque": 35
+          }
+        }
+      },
+      {
+        "Nombre": "Elixir de la Inmortalidad",
+        "Tipo": "Objeto",
+        "Descripcion": "Un elixir que concede la inmortalidad al jugador, haciéndolo invulnerable a la muerte.",
+        "Requisitos": {
+          "minimo_salud": null,
+          "minimo_cordura": 45
+        },
+        "Efectos": {
+          "buff": {
+            "inmortalidad": true
+          }
+        }
+      },
+      {
+        "Nombre": "Llamas Infernales",
+        "Tipo": "Hechizo",
+        "Descripcion": "Un hechizo que invoca llamas infernales que consumen a los enemigos en una furia ardiente.",
+        "Requisitos": {
+          "minimo_salud": null,
+          "minimo_cordura": 28
+        },
+        "Efectos": {
+          "dano": {
+            "dano_salud": 40,
+            "dano_cordura": 0
+          }
+        }
+      },
+      {
+        "Nombre": "Trampa de la Perdición",
+        "Tipo": "Trampa",
+        "Descripcion": "Una trampa que sume a los enemigos en la perdición eterna, causando daño y desesperación.",
+        "Requisitos": {
+          "minimo_salud": null,
+          "minimo_cordura": null
+        },
+        "Efectos": {
+          "dano": {
+            "dano_salud": 30,
+            "dano_cordura": 20
+          }
+        }
+      },
+      {
+        "Nombre": "Hacha de las Sombras",
+        "Tipo": "Arma",
+        "Descripcion": "Un hacha forjada en las sombras que corta a través de la realidad misma para herir a los enemigos.",
+        "Requisitos": {
+          "minimo_salud": null,
+          "minimo_cordura": null
+        },
+        "Efectos": {
+          "buff": {
+            "aumento_poder_ataque": 45
+          }
+        }
+      },
+      {
+        "Nombre": "Poción de la Sabiduría",
+        "Tipo": "Objeto",
+        "Descripcion": "Una poción que otorga sabiduría al jugador, aumentando su capacidad estratégica y defensiva.",
+        "Requisitos": {
+          "minimo_salud": null,
+          "minimo_cordura": null
+        },
+        "Efectos": {
+          "buff": {
+            "aumento_defensa": 30
+          }
+        }
+      },
+      {
+        "Nombre": "Maldición de la Desolación",
+        "Tipo": "Hechizo",
+        "Descripcion": "Una maldición que lleva la desolación al enemigo, reduciendo su voluntad de luchar.",
+        "Requisitos": {
+          "minimo_salud": null,
+          "minimo_cordura": 30
+        },
+        "Efectos": {
+          "debuff": {
+            "reduccion_defensa": 15,
+            "aumento_dano_recibido": 35
+          }
+        }
+      },
+      {
+        "Nombre": "Escudo de la Aurora",
+        "Tipo": "Contrahechizo",
+        "Descripcion": "Un escudo mágico que emana la luz de la aurora, protegiendo al jugador de la oscuridad de los hechizos.",
+        "Requisitos": {
+          "minimo_salud": null,
+          "minimo_cordura": 40
+        },
+        "Efectos": {
+          "buff": {
+            "aumento_defensa": 40,
+            "recuperacion_cordura": 40
+          }
+        }
+      },
+      {
+        "Nombre": "Trampa del Abismo Sin Fin",
+        "Tipo": "Trampa",
+        "Descripcion": "Una trampa que arroja a los enemigos al abismo sin fin, condenándolos a una eternidad de sufrimiento.",
+        "Requisitos": {
+          "minimo_salud": null,
+          "minimo_cordura": null
+        },
+        "Efectos": {
+          "dano": {
+            "dano_salud": 60,
+            "dano_cordura": 0
+          }
+        }
+      },
+      {
+        "Nombre": "Báculo del Caos Primordial",
+        "Tipo": "Arma",
+        "Descripcion": "Un báculo que canaliza el caos primordial, desatando una fuerza devastadora contra los enemigos.",
+        "Requisitos": {
+          "minimo_salud": null,
+          "minimo_cordura": 50
+        },
+        "Efectos": {
+          "buff": {
+            "aumento_poder_ataque": 55
+          }
+        }
+      },
+      {
+        "Nombre": "Maldición del Olvido",
+        "Tipo": "Hechizo",
+        "Descripcion": "Una maldición que sume al enemigo en un profundo olvido, reduciendo su capacidad de respuesta.",
+        "Requisitos": {
+          "minimo_salud": null,
+          "minimo_cordura": 50
+        },
+        "Efectos": {
+          "debuff": {
+            "reduccion_salud": 20,
+            "aumento_dano_recibido": 60
+          }
+        }
+      },
+      {
+        "Nombre": "Escudo de la Trascendencia",
+        "Tipo": "Contrahechizo",
+        "Descripcion": "Un escudo mágico que trasciende la realidad, protegiendo al jugador de cualquier amenaza sobrenatural.",
+        "Requisitos": {
+          "minimo_salud": null,
+          "minimo_cordura": 70
+        },
+        "Efectos": {
+          "buff": {
+            "aumento_defensa": 60,
+            "recuperacion_cordura": 70
+          }
+        }
+      },
+      {
+        "Nombre": "Trampa de la Aniquilación",
+        "Tipo": "Trampa",
+        "Descripcion": "Una trampa que aniquila a los enemigos con una explosión devastadora, borrándolos de la existencia.",
+        "Requisitos": {
+          "minimo_salud": null,
+          "minimo_cordura": null
+        },
+        "Efectos": {
+          "dano": {
+            "dano_salud": 80,
+            "dano_cordura": 0
+          }
+        }
+      },
+      {
+        "Nombre": "Espada de la Eternidad",
+        "Tipo": "Arma",
+        "Descripcion": "Una espada que representa la eternidad misma, cortando a través del tiempo y el espacio para vencer a los enemigos.",
+        "Requisitos": {
+          "minimo_salud": null,
+          "minimo_cordura": null
+        },
+        "Efectos": {
+          "buff": {
+            "aumento_poder_ataque": 70
+          }
+        }
+      },
+      {
+        "Nombre": "Maldición del Vacío",
+        "Tipo": "Hechizo",
+        "Descripcion": "Una maldición que arroja al enemigo al vacío interdimensional, condenándolo a la no existencia.",
+        "Requisitos": {
+          "minimo_salud": null,
+          "minimo_cordura": 70
+        },
+        "Efectos": {
+          "debuff": {
+            "reduccion_salud": 30,
+            "aumento_dano_recibido": 80
+          }
+        }
+      },
+      {
+        "Nombre": "Escudo de la Realidad Absoluta",
+        "Tipo": "Contrahechizo",
+        "Descripcion": "Un escudo mágico que refleja y neutraliza cualquier amenaza, manteniendo la realidad intacta.",
+        "Requisitos": {
+          "minimo_salud": null,
+          "minimo_cordura": 90
+        },
+        "Efectos": {
+          "buff": {
+            "aumento_defensa": 80,
+            "recuperacion_cordura": 90
+          }
+        }
+      },
+      {
+        "Nombre": "Trampa del Olvido Eterno",
+        "Tipo": "Trampa",
+        "Descripcion": "Una trampa que sume a los enemigos en un olvido eterno, borrando su existencia para siempre.",
+        "Requisitos": {
+          "minimo_salud": null,
+          "minimo_cordura": null
+        },
+        "Efectos": {
+          "dano": {
+            "dano_salud": 100,
+            "dano_cordura": 0
+          }
+        }
+      },
+      {
+        "Nombre": "Sombra Malévola",
+        "Tipo": "Monstruo",
+        "Descripcion": "Una entidad oscura que acecha en las sombras y ataca con crueldad.",
+        "Requisitos": {
+            "minimo_salud": null,
+            "minimo_cordura": null
+        },
+        "Efectos": {
+            "dano": {
+                "dano_salud": 8,
+                "dano_cordura": 2
+            }
+        },
+        "vida_monstruo": 10
+      },
+      {
+          "Nombre": "Elixir de Regeneración",
+          "Tipo": "Objeto",
+          "Descripcion": "Un elixir mágico que restaura la salud y la cordura del jugador.",
+          "Requisitos": {
+              "minimo_salud": null,
+              "minimo_cordura": null
+          },
+          "Efectos": {
+              "buff": {
+                  "recuperacion_salud": 6,
+                  "recuperacion_cordura": 6
+              }
+          }
+      },
+      {
+          "Nombre": "Trampa de Espinas",
+          "Tipo": "Trampa",
+          "Descripcion": "Una trampa de espinas afiladas que causa daño y ralentiza al objetivo atrapado.",
+          "Requisitos": {
+              "minimo_salud": null,
+              "minimo_cordura": null
+          },
+          "Efectos": {
+              "dano": {
+                  "dano_salud": 5,
+                  "dano_cordura": 0
+              },
+              "redireccion_velocidad": -2
+          }
+      },
+      {
+          "Nombre": "Hechizo de Confusión",
+          "Tipo": "Hechizo",
+          "Descripcion": "Un hechizo que confunde al enemigo y altera sus acciones.",
+          "Requisitos": {
+              "minimo_salud": null,
+              "minimo_cordura": 10
+          },
+          "Efectos": {
+              "debuf": {
+                  "reduccion_salud": 3,
+                  "reduccion_cordura": 3
+              }
+          }
+      },
+      {
+          "Nombre": "Contrahechizo Reflectante",
+          "Tipo": "Contrahechizo",
+          "Descripcion": "Un contrahechizo que refleja los hechizos enemigos hacia su lanzador.",
+          "Requisitos": {
+              "minimo_salud": null,
+              "minimo_cordura": 12
+          },
+          "Efectos": {
+              "reflejo_hechizo": true,
+              "dano_salud_lanzador": 4
+          }
+      },
+      {
+          "Nombre": "Gárgola de Piedra",
+          "Tipo": "Monstruo",
+          "Descripcion": "Una gárgola de piedra que cobra vida y ataca con sus afiladas garras.",
+          "Requisitos": {
+              "minimo_salud": null,
+              "minimo_cordura": null
+          },
+          "Efectos": {
+              "dano": {
+                  "dano_salud": 7,
+                  "dano_cordura": 1
+              }
+          },
+          "vida_monstruo": 12
+      },
+      {
+          "Nombre": "Poción de Resistencia",
+          "Tipo": "Objeto",
+          "Descripcion": "Una poción que fortalece la resistencia del jugador contra Efectos negativos.",
+          "Requisitos": {
+              "minimo_salud": null,
+              "minimo_cordura": null
+          },
+          "Efectos": {
+              "buff": {
+                  "aumento_resistencia": 2
+              }
+          }
+      },
+      {
+          "Nombre": "Trampa Explosiva",
+          "Tipo": "Trampa",
+          "Descripcion": "Una trampa explosiva que causa un gran daño al objetivo atrapado.",
+          "Requisitos": {
+              "minimo_salud": null,
+              "minimo_cordura": null
+          },
+          "Efectos": {
+              "dano": {
+                  "dano_salud": 10,
+                  "dano_cordura": 0
+              }
+          }
+      },
+      {
+          "Nombre": "Hechizo de Aturdimiento",
+          "Tipo": "Hechizo",
+          "Descripcion": "Un hechizo que aturde al enemigo, impidiéndole realizar acciones.",
+          "Requisitos": {
+              "minimo_salud": null,
+              "minimo_cordura": 8
+          },
+          "Efectos": {
+              "debuf": {
+                  "aturdimiento": true
+              }
+          }
+      },
+      {
+          "Nombre": "Contrahechizo de Protección",
+          "Tipo": "Contrahechizo",
+          "Descripcion": "Un contrahechizo que protege al jugador de Efectos negativos de hechizos enemigos.",
+          "Requisitos": {
+              "minimo_salud": null,
+              "minimo_cordura": 15
+          },
+          "Efectos": {
+              "inmunidad_hechizo": true
+          }
+      },
+      {
+          "Nombre": "Licántropo",
+          "Tipo": "Monstruo",
+          "Descripcion": "Un ser humano que se transforma en un lobo durante la noche y ataca a todo lo que se cruza en su camino.",
+          "Requisitos": {
+              "minimo_salud": null,
+              "minimo_cordura": null
+          },
+          "Efectos": {
+              "dano": {
+                  "dano_salud": 9,
+                  "dano_cordura": 3
+              }
+          },
+          "vida_monstruo": 15
+      },
+      {
+          "Nombre": "Red de Arañas Venenosas",
+          "Tipo": "Trampa",
+          "Descripcion": "Una red llena de arañas venenosas que causa daño gradual y reduce la velocidad del objetivo atrapado.",
+          "Requisitos": {
+              "minimo_salud": null,
+              "minimo_cordura": null
+          },
+          "Efectos": {
+              "dano": {
+                  "dano_salud": 4,
+                  "dano_cordura": 0
+              },
+              "redireccion_velocidad": -3
+          }
+      },
+      {
+          "Nombre": "Hechizo de Fuego",
+          "Tipo": "Hechizo",
+          "Descripcion": "Un hechizo que envuelve al enemigo en llamas, causando daño continuo durante varios turnos.",
+          "Requisitos": {
+              "minimo_salud": null,
+              "minimo_cordura": 12
+          },
+          "Efectos": {
+              "debuf": {
+                  "dano_continuo": 4
+              }
+          }
+      },
+      {
+          "Nombre": "Contrahechizo de Anulación",
+          "Tipo": "Contrahechizo",
+          "Descripcion": "Un contrahechizo que anula el último hechizo lanzado por el enemigo.",
+          "Requisitos": {
+              "minimo_salud": null,
+              "minimo_cordura": 8
+          },
+          "Efectos": {
+              "anulacion_hechizo": true
+          }
+      },
+      {
+          "Nombre": "Espíritu Vengativo",
+          "Tipo": "Monstruo",
+          "Descripcion": "El espíritu de una persona vengativa que atormenta a sus enemigos.",
+          "Requisitos": {
+              "minimo_salud": 15,
+              "minimo_cordura": null
+          },
+          "Efectos": {
+              "dano": {
+                  "dano_salud": 2,
+                  "dano_cordura": 6
+              }
+          },
+          "vida_monstruo": 8
+      },
+      {
+          "Nombre": "Trampa de Congelación",
+          "Tipo": "Trampa",
+          "Descripcion": "Una trampa que congela al objetivo atrapado, reduciendo su velocidad y dañando su salud.",
+          "Requisitos": {
+              "minimo_salud": null,
+              "minimo_cordura": null
+          },
+          "Efectos": {
+              "dano": {
+                  "dano_salud": 6,
+                  "dano_cordura": 0
+              },
+              "redireccion_velocidad": -4
+          }
+      },
+      {
+          "Nombre": "Hechizo de Parálisis",
+          "Tipo": "Hechizo",
+          "Descripcion": "Un hechizo que paraliza al enemigo, impidiéndole actuar durante varios turnos.",
+          "Requisitos": {
+              "minimo_salud": null,
+              "minimo_cordura": 10
+          },
+          "Efectos": {
+              "debuf": {
+                  "paralisis": true
+              }
+          }
+      },
+      {
+          "Nombre": "Contrahechizo de Protección Absoluta",
+          "Tipo": "Contrahechizo",
+          "Descripcion": "Un contrahechizo que otorga inmunidad total a los Efectos de hechizos enemigos durante un turno.",
+          "Requisitos": {
+              "minimo_salud": null,
+              "minimo_cordura": 20
+          },
+          "Efectos": {
+              "inmunidad_hechizo": true,
+              "inmunidad_trampa": true
+          }
+      },
+      {
+        "Nombre": "Hombre Lobo",
+        "Tipo": "Monstruo",
+        "Descripcion": "Un aterrador hombre lobo con garras afiladas.",
+        "Requisitos": {
+            "minimo_salud": null,
+            "minimo_cordura": null
+        },
+        "Efectos": {
+            "dano": {
+                "dano_salud": 7,
+                "dano_cordura": 2
+            }
+        },
+        "vida_monstruo": 12
+    },
+    {
+        "Nombre": "Vampiro Sediento",
+        "Tipo": "Monstruo",
+        "Descripcion": "Un vampiro sediento de sangre que drena la vida de sus víctimas.",
+        "Requisitos": {
+            "minimo_salud": null,
+            "minimo_cordura": null
+        },
+        "Efectos": {
+            "dano": {
+                "dano_salud": 6,
+                "dano_cordura": 4
+            }
+        },
+        "vida_monstruo": 14
+    },
+    {
+        "Nombre": "Esqueleto Rápido",
+        "Tipo": "Monstruo",
+        "Descripcion": "Un esqueleto ágil que ataca con rapidez.",
+        "Requisitos": {
+            "minimo_salud": null,
+            "minimo_cordura": null
+        },
+        "Efectos": {
+            "dano": {
+                "dano_salud": 5,
+                "dano_cordura": 1
+            }
+        },
+        "vida_monstruo": 8
+    },
+    {
+        "Nombre": "Gólem de Piedra",
+        "Tipo": "Monstruo",
+        "Descripcion": "Un gigantesco gólem de piedra con una resistencia increíble.",
+        "Requisitos": {
+            "minimo_salud": null,
+            "minimo_cordura": null
+        },
+        "Efectos": {
+            "dano": {
+                "dano_salud": 8,
+                "dano_cordura": 0
+            }
+        },
+        "vida_monstruo": 20
+    },
+    {
+        "Nombre": "Bruja Maléfica",
+        "Tipo": "Monstruo",
+        "Descripcion": "Una bruja maléfica con habilidades mágicas oscuras.",
+        "Requisitos": {
+            "minimo_salud": null,
+            "minimo_cordura": null
+        },
+        "Efectos": {
+            "dano": {
+                "dano_salud": 7,
+                "dano_cordura": 3
+            }
+        },
+        "vida_monstruo": 10
+    },
+    {
+        "Nombre": "Zombi Descompuesto",
+        "Tipo": "Monstruo",
+        "Descripcion": "Un zombi descompuesto que infecta a sus víctimas con su mordida.",
+        "Requisitos": {
+            "minimo_salud": null,
+            "minimo_cordura": null
+        },
+        "Efectos": {
+            "dano": {
+                "dano_salud": 6,
+                "dano_cordura": 2
+            }
+        },
+        "vida_monstruo": 15
+    },
+    {
+        "Nombre": "Gárgola Vigilante",
+        "Tipo": "Monstruo",
+        "Descripcion": "Una gárgola vigilante que protege antiguos tesoros con ferocidad.",
+        "Requisitos": {
+            "minimo_salud": null,
+            "minimo_cordura": null
+        },
+        "Efectos": {
+            "dano": {
+                "dano_salud": 9,
+                "dano_cordura": 1
+            }
+        },
+        "vida_monstruo": 18
+    },
+    {
+        "Nombre": "Bestia Salvaje",
+        "Tipo": "Monstruo",
+        "Descripcion": "Una bestia salvaje con garras y colmillos afilados.",
+        "Requisitos": {
+            "minimo_salud": null,
+            "minimo_cordura": null
+        },
+        "Efectos": {
+            "dano": {
+                "dano_salud": 8,
+                "dano_cordura": 2
+            }
+        },
+        "vida_monstruo": 12
+    },
+    {
+        "Nombre": "Fantasma Vengativo",
+        "Tipo": "Monstruo",
+        "Descripcion": "El espíritu vengativo de una persona que busca venganza contra los vivos.",
+        "Requisitos": {
+            "minimo_salud": null,
+            "minimo_cordura": 10
+        },
+        "Efectos": {
+            "dano": {
+                "dano_salud": 4,
+                "dano_cordura": 7
+            }
+        },
+        "vida_monstruo": 10
+    },
+    {
+        "Nombre": "Dragón de Fuego",
+        "Tipo": "Monstruo",
+        "Descripcion": "Un temible dragón de fuego que escupe llamas ardientes.",
+        "Requisitos": {
+            "minimo_salud": null,
+            "minimo_cordura": null
+        },
+        "Efectos": {
+            "dano": {
+                "dano_salud": 10,
+                "dano_cordura": 3
+            }
+        },
+        "vida_monstruo": 25
+    },
+    {
+        "Nombre": "Demonio Infernal",
+        "Tipo": "Monstruo",
+        "Descripcion": "Un demonio infernal con poderes oscuros y una sed insaciable de destrucción.",
+        "Requisitos": {
+            "minimo_salud": null,
+            "minimo_cordura": 15
+        },
+        "Efectos": {
+            "dano": {
+                "dano_salud": 12,
+                "dano_cordura": 5
+            }
+        },
+        "vida_monstruo": 30
+    },
+    {
+        "Nombre": "Hidra Venenosa",
+        "Tipo": "Monstruo",
+        "Descripcion": "Una hidra de múltiples cabezas que escupe veneno mortal.",
+        "Requisitos": {
+            "minimo_salud": null,
+            "minimo_cordura": null
+        },
+        "Efectos": {
+            "dano": {
+                "dano_salud": 9,
+                "dano_cordura": 1
+            }
+        },
+        "vida_monstruo": 18
+    },
+    {
+        "Nombre": "Licántropo Alpha",
+        "Tipo": "Monstruo",
+        "Descripcion": "El líder de la manada de hombres lobo, un licántropo alpha feroz.",
+        "Requisitos": {
+            "minimo_salud": null,
+            "minimo_cordura": 8
+        },
+        "Efectos": {
+            "dano": {
+                "dano_salud": 10,
+                "dano_cordura": 2
+            }
+        },
+        "vida_monstruo": 16
+    },
+    {
+        "Nombre": "Mago Oscuro",
+        "Tipo": "Monstruo",
+        "Descripcion": "Un mago oscuro con habilidades mágicas letales.",
+        "Requisitos": {
+            "minimo_salud": null,
+            "minimo_cordura": 12
+        },
+        "Efectos": {
+            "dano": {
+                "dano_salud": 6,
+                "dano_cordura": 6
+            }
+        },
+        "vida_monstruo": 14
+    },
+    {
+        "Nombre": "Larva Infernal",
+        "Tipo": "Monstruo",
+        "Descripcion": "Una larva infernal que se arrastra y causa daño por contacto.",
+        "Requisitos": {
+            "minimo_salud": null,
+            "minimo_cordura": null
+        },
+        "Efectos": {
+            "dano": {
+                "dano_salud": 4,
+                "dano_cordura": 0
+            }
+        },
+        "vida_monstruo": 6
+    },
+    {
+        "Nombre": "Máquina de Guerra",
+        "Tipo": "Monstruo",
+        "Descripcion": "Una máquina de guerra implacable con armas devastadoras.",
+        "Requisitos": {
+            "minimo_salud": null,
+            "minimo_cordura": 15
+        },
+        "Efectos": {
+            "dano": {
+                "dano_salud": 11,
+                "dano_cordura": 3
+            }
+        },
+        "vida_monstruo": 22
+    },
+    {
+        "Nombre": "Fantasma Susurrante",
+        "Tipo": "Monstruo",
+        "Descripcion": "Un fantasma susurrante que ataca la mente de sus víctimas.",
+        "Requisitos": {
+            "minimo_salud": 10,
+            "minimo_cordura": null
+        },
+        "Efectos": {
+            "dano": {
+                "dano_salud": 2,
+                "dano_cordura": 8
+            }
+        },
+        "vida_monstruo": 8
+    },
+    {
+        "Nombre": "Kraken Devorador",
+        "Tipo": "Monstruo",
+        "Descripcion": "Un kraken gigante que emerge de las profundidades para devorar barcos enteros.",
+        "Requisitos": {
+            "minimo_salud": null,
+            "minimo_cordura": 18
+        },
+        "Efectos": {
+            "dano": {
+                "dano_salud": 14,
+                "dano_cordura": 2
+            }
+        },
+        "vida_monstruo": 28
+    },
+    {
+        "Nombre": "Quimera Voraz",
+        "Tipo": "Monstruo",
+        "Descripcion": "Una quimera con cabeza de león, cuerpo de cabra y cola de serpiente que acecha a sus presas.",
+        "Requisitos": {
+            "minimo_salud": 15,
+            "minimo_cordura": 10
+        },
+        "Efectos": {
+            "dano": {
+                "dano_salud": 10,
+                "dano_cordura": 5
+            }
+        },
+        "vida_monstruo": 20
+    },
+    {
+      "Tipo": "Objeto",
+      "Nombre": "Poción de Curación",
+      "Descripcion": "Una poción mágica que restaura la salud del jugador.",
+      "Requisitos": {
+        "minimo_salud": null,
+        "minimo_cordura": null
+      },
+      "Efectos": {
+        "buff": {
+          "recuperacion_salud": 5,
+          "recuperacion_cordura": 0
+        }
+      }
+    },
+    {
+      "Tipo": "Objeto",
+      "Nombre": "Bálsamo Curativo",
+      "Descripcion": "Un ungüento curativo que regenera la salud del jugador.",
+      "Requisitos": {
+        "minimo_salud": 10,
+        "minimo_cordura": null
+      },
+      "Efectos": {
+        "buff": {
+          "recuperacion_salud": 3,
+          "recuperacion_cordura": 0
+        }
+      }
+    },
+    {
+      "Tipo": "Objeto",
+      "Nombre": "Manzana de la Vida",
+      "Descripcion": "Una manzana mágica que restaura la vitalidad del jugador.",
+      "Requisitos": {
+        "minimo_salud": null,
+        "minimo_cordura": 15
+      },
+      "Efectos": {
+        "buff": {
+          "recuperacion_salud": 4,
+          "recuperacion_cordura": 0
+        }
+      }
+    },
+    {
+      "Tipo": "Objeto",
+      "Nombre": "Elixir de Salud",
+      "Descripcion": "Un elixir que cura heridas y devuelve la salud al jugador.",
+      "Requisitos": {
+        "minimo_salud": null,
+        "minimo_cordura": null
+      },
+      "Efectos": {
+        "buff": {
+          "recuperacion_salud": 6,
+          "recuperacion_cordura": 0
+        }
+      }
+    },
+    {
+      "Tipo": "Objeto",
+      "Nombre": "Hierbas Curativas",
+      "Descripcion": "Hierbas medicinales que restauran la salud del jugador.",
+      "Requisitos": {
+        "minimo_salud": 8,
+        "minimo_cordura": null
+      },
+      "Efectos": {
+        "buff": {
+          "recuperacion_salud": 4,
+          "recuperacion_cordura": 0
+        }
+      }
+    },
+    {
+      "Tipo": "Objeto",
+      "Nombre": "Botiquín de Primeros Auxilios",
+      "Descripcion": "Un botiquín completo que permite al jugador recuperar salud.",
+      "Requisitos": {
+        "minimo_salud": null,
+        "minimo_cordura": null
+      },
+      "Efectos": {
+        "buff": {
+          "recuperacion_salud": 8,
+          "recuperacion_cordura": 0
+        }
+      }
+    },
+    {
+      "Tipo": "Objeto",
+      "Nombre": "Piedra de Cura",
+      "Descripcion": "Una piedra mágica que regenera la salud del jugador.",
+      "Requisitos": {
+        "minimo_salud": null,
+        "minimo_cordura": 12
+      },
+      "Efectos": {
+        "buff": {
+          "recuperacion_salud": 7,
+          "recuperacion_cordura": 0
+        }
+      }
+    },
+    {
+      "Tipo": "Objeto",
+      "Nombre": "Poción de Vitalidad",
+      "Descripcion": "Una poción que restaura la vitalidad y la salud del jugador.",
+      "Requisitos": {
+        "minimo_salud": 12,
+        "minimo_cordura": 10
+      },
+      "Efectos": {
+        "buff": {
+          "recuperacion_salud": 5,
+          "recuperacion_cordura": 2
+        }
+      }
+    },
+    {
+      "Tipo": "Objeto",
+      "Nombre": "Tónico de Salud",
+      "Descripcion": "Un tónico que fortalece y cura al jugador.",
+      "Requisitos": {
+        "minimo_salud": null,
+        "minimo_cordura": 8
+      },
+      "Efectos": {
+        "buff": {
+          "recuperacion_salud": 6,
+          "recuperacion_cordura": 0
+        }
+      }
+    },
+    {
+      "Tipo": "Objeto",
+      "Nombre": "Brebaje de Regeneración",
+      "Descripcion": "Un brebaje que acelera la regeneración de salud del jugador.",
+      "Requisitos": {
+        "minimo_salud": null,
+        "minimo_cordura": null
+      },
+      "Efectos": {
+        "buff": {
+          "recuperacion_salud": 9,
+          "recuperacion_cordura": 0
+        }
+      }
+    }
+    ]
+  }
+  

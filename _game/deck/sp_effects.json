@@ -1,0 +1,89 @@
+{
+    "efectos_cartas": [
+      {
+        "Nombre": "Pesadilla del Necronomicón",
+        "Descripcion": "El jugador que lanza esta carta de hechizo recibe 3 puntos de daño y roba una carta adicional del mazo, pero también recibe 2 puntos de locura debido a la influencia del Necronomicón.",
+        "Acciones": [
+          {
+            "accion": "recibir_danio",
+            "cantidad": 3
+          },
+          {
+            "accion": "robar_carta"
+          },
+          {
+            "accion": "aumentar_locura",
+            "cantidad": 2
+          }
+        ]
+      },
+      {
+        "Nombre": "Maldición del Duplicado",
+        "Descripcion": "El jugador que lanza esta carta de hechizo debe descartar dos cartas al azar de su mano debido a una perturbación en la realidad causada por el libro maldito.",
+        "Acciones": [
+          {
+            "accion": "descartar_cartas_azar",
+            "cantidad": 2
+          }
+        ]
+      },
+      {
+        "Nombre": "Sacrificio de Cordura",
+        "Descripcion": "El jugador que lanza esta carta de hechizo recibe 4 puntos de daño y pierde 3 puntos de cordura debido a un oscuro pacto con las fuerzas malévolas.",
+        "Acciones": [
+          {
+            "accion": "recibir_danio",
+            "cantidad": 4
+          },
+          {
+            "accion": "disminuir_cordura",
+            "cantidad": 3
+          }
+        ]
+      },
+      {
+        "Nombre": "Ocultismo Oscuro",
+        "Descripcion": "El jugador que lanza esta carta de hechizo recibe 2 puntos de daño y sufre una confusión mental, lo que le impide usar cartas de trampas durante su próximo turno.",
+        "Acciones": [
+          {
+            "accion": "recibir_danio",
+            "cantidad": 2
+          },
+          {
+            "accion": "confusion_mental"
+          }
+        ]
+      },
+      {
+        "Nombre": "Trampa del Engaño",
+        "Descripcion": "El jugador que lanza esta carta de hechizo recibe 3 puntos de daño y debe mostrar su mano al jugador que recibirá el ataque. Además, otro jugador al azar recibe 2 puntos de daño por la influencia del engaño malévolo.",
+        "Acciones": [
+          {
+            "accion": "recibir_danio",
+            "cantidad": 3
+          },
+          {
+            "accion": "mostrar_mano"
+          },
+          {
+            "accion": "recibir_danio_aleatorio",
+            "cantidad": 2
+          }
+        ]
+      },
+      {
+        "Nombre": "Maldición de las Sombras",
+        "Descripcion": "El jugador que lanza esta carta de hechizo recibe 2 puntos de daño y su visión se oscurece momentáneamente, lo que le impide ver la mano de los demás jugadores durante su próximo turno.",
+        "Acciones": [
+          {
+            "accion": "recibir_danio",
+            "cantidad": 2
+          },
+          {
+            "accion": "vision_oscura"
+          }
+        ]
+      }
+    ]
+  }
+  

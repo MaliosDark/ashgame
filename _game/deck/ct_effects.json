@@ -1,0 +1,136 @@
+{
+    "efectos_cartas": [
+      {
+        "Nombre": "Engaño Malicioso",
+        "Descripcion": "El jugador que lanza la trampa o contrahechizo puede robar una carta adicional del mazo.",
+        "Acciones": [
+          {
+            "accion": "robar_carta"
+          }
+        ]
+      },
+      {
+        "Nombre": "Pacto Siniestro",
+        "Descripcion": "El jugador que lanza la carta puede recuperar 2 puntos de vida.",
+        "Acciones": [
+          {
+            "accion": "recuperar_vida",
+            "cantidad": 2
+          }
+        ]
+      },
+      {
+        "Nombre": "Ilusión Engañosa",
+        "Descripcion": "El jugador que lanza la carta puede robar una carta adicional del mazo y ver la mano del jugador objetivo durante un turno.",
+        "Acciones": [
+          {
+            "accion": "robar_carta"
+          },
+          {
+            "accion": "ver_mano"
+          }
+        ]
+      },
+      {
+        "Nombre": "Artimaña de las Tinieblas",
+        "Descripcion": "El jugador que lanza la carta puede duplicar su próximo ataque con un arma.",
+        "Acciones": [
+          {
+            "accion": "duplicar_proximo_ataque"
+          }
+        ]
+      },
+      {
+        "Nombre": "Sabiduría Falsa",
+        "Descripcion": "El jugador que lanza la carta roba una carta adicional del mazo y reduce su nivel de locura en 2 puntos.",
+        "Acciones": [
+          {
+            "accion": "robar_carta"
+          },
+          {
+            "accion": "reducir_locura",
+            "cantidad": 2
+          }
+        ]
+      },
+      {
+        "Nombre": "Engaño de los Antiguos",
+        "Descripcion": "El jugador que lanza la carta recupera 4 puntos de vida y 2 puntos de cordura.",
+        "Acciones": [
+          {
+            "accion": "recuperar_vida",
+            "cantidad": 4
+          },
+          {
+            "accion": "recuperar_cordura",
+            "cantidad": 2
+          }
+        ]
+      },
+      {
+        "Nombre": "Engaño Perverso",
+        "Descripcion": "El jugador objetivo debe descartar dos cartas al azar de su mano.",
+        "Acciones": [
+          {
+            "accion": "descartar_cartas",
+            "cantidad": 2
+          }
+        ]
+      },
+      {
+        "Nombre": "Pesadilla Ilusoria",
+        "Descripcion": "El jugador objetivo recibe 3 puntos de locura y debe mostrar su mano al jugador que lanza la carta.",
+        "Acciones": [
+          {
+            "accion": "recibir_locura",
+            "cantidad": 3
+          },
+          {
+            "accion": "mostrar_mano"
+          }
+        ]
+      },
+      {
+        "Nombre": "Maldición Oculta",
+        "Descripcion": "El jugador objetivo debe descartar una carta equipada y recibir 4 puntos de daño.",
+        "Acciones": [
+          {
+            "accion": "descartar_carta_equipada"
+          },
+          {
+            "accion": "recibir_danio",
+            "cantidad": 4
+          }
+        ]
+      },
+      {
+        "Nombre": "Engaño Desorientador",
+        "Descripcion": "El jugador objetivo pierde su próximo turno.",
+        "Acciones": [
+          {
+            "accion": "perder_turno"
+          }
+        ]
+      },
+      {
+        "Nombre": "Maleficio Engañoso",
+        "Descripcion": "Reduce la salud máxima del jugador objetivo en 5 puntos.",
+        "Acciones": [
+          {
+            "accion": "reducir_salud_maxima",
+            "cantidad": 5
+          }
+        ]
+      },
+      {
+        "Nombre": "Confusión Ilusoria",
+        "Descripcion": "El jugador objetivo debe descartar una carta al azar de su mano.",
+        "Acciones": [
+          {
+            "accion": "descartar_carta"
+          }
+        ]
+      }
+    ]
+  }
+  
